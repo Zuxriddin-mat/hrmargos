@@ -1,0 +1,15 @@
+<svg id="Icons_chevron-down" data-name="Icons / chevron-down" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+  <path id="Path_399" data-name="Path 399" d="M0,0H24V24H0Z" fill="none"/>
+  <g id="_992680" data-name="992680" transform="translate(4.827 4.001)">
+    <g id="Group_1790" data-name="Group 1790" transform="translate(0 0.85)">
+      <g id="Group_1789" data-name="Group 1789" transform="translate(0 0)">
+        <path id="Path_1155" data-name="Path 1155" d="M7.149,13.957H1.787a.6.6,0,0,1-.6-.6V2.637a.6.6,0,0,1,.6-.6H7.149a.6.6,0,0,0,0-1.192H1.787A1.79,1.79,0,0,0,0,2.637V13.361a1.79,1.79,0,0,0,1.787,1.787H7.149a.6.6,0,1,0,0-1.192Z" transform="translate(0 -0.85)" fill="#0445b1"/>
+      </g>
+    </g>
+    <g id="Group_1792" data-name="Group 1792" transform="translate(4.766 3.829)">
+      <g id="Group_1791" data-name="Group 1791">
+        <path id="Path_1156" data-name="Path 1156" d="M179.5,110.911l-3.622-3.575a.6.6,0,1,0-.836.848l2.589,2.555H170.7a.6.6,0,0,0,0,1.192h6.937l-2.589,2.555a.6.6,0,1,0,.836.848l3.622-3.575a.6.6,0,0,0,0-.848Z" transform="translate(-170.1 -107.165)" fill="#0445b1"/>
+      </g>
+    </g>
+  </g>
+</svg>
