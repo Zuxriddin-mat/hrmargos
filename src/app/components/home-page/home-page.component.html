@@ -5,7 +5,7 @@
                 <img src="../../../assets/img/group.svg" alt="">
                 <h3>Ходимларнинг тақсимланиши</h3>
             </div>
-            <div class="export-to-excel col-2 d-flex justify-content-center">
+            <div class="export-to-excel col-3 d-flex justify-content-end">
                 <button class="d-flex align-items-center">
                     <img src="../../../assets/img/free-icon-excel-file-1396.svg" alt="">
                     <p>Excel га экспорт</p>
@@ -49,32 +49,45 @@
                 </select>
             </div>
         </div>
+        <!-- CHANGES -->
         <div class="headings_row d-flex container-fluid">
             <div class="headings_row_index text-center">Т/р</div>
-            <div class="col-4 text-center">Лавозим номи</div>
-            <div class="col-2 text-center">Штатлар сони</div>
-            <div class="headings_row_fullname col-5 text-center">Ф.И.Ш</div>
+            <div class="headings_row_photo text-center">Фото</div>
+            <div class="headings_row_fullname text-center">Ф.И.Ш</div>
+            <div class="headings_row_gender text-center">Жинси</div>
+            <div class="headings_row_birth text-center">Туғилган санаси</div>
+            <div class="headings_row_passport text-center">Паспорт серия ва рақами</div>
+            <div class="headings_row_update text-center">Янгиланган санаси</div>
+            <div class="headings_row_object text-center">Объективка</div>
+            <div class="headings_row_t2 text-center">Т-2 шкали</div>
+            <div class="headings_row_cv text-center">Портфолио</div>
         </div>
-        <div class="total_number_row d-flex align-items-center justify-content-end py-3">
-            <p class="m-0 me-3 p-0">Жами ташкилот бўйича: 254/42</p>
+        <div class="total_number_row d-flex align-items-center">
+            <select class="names" name="names" id="names">
+                <option value=""></option>
+                <option value="company1">company1</option>
+                <option value="company2">company2</option>
+                <option value="company3">company3</option>
+                <option value="company4">company4</option>
+            </select>
+            <select class="genders" name="genders" id="genders">
+                <option value=""></option>
+                <option value="company1">company1</option>
+                <option value="company2">company2</option>
+                <option value="company3">company3</option>
+                <option value="company4">company4</option>
+            </select>
+            <select class="passports" name="passports" id="passports">
+                <option value=""></option>
+                <option value="company1">company1</option>
+                <option value="company2">company2</option>
+                <option value="company3">company3</option>
+                <option value="company4">company4</option>
+            </select>
         </div>
-        <div class="table_title d-flex align-items-center justify-content-center py-3">
-            <p class="m-0 p-0">Раҳбарият</p>
-        </div>
-        <app-table-row [id]="'1.1'" [full_name]="'Xasanov Otabek Abdurashidovich'" [number_of_jobs]="1" [job_title]="'Агентлик директори'"></app-table-row>
-        <app-table-row [id]="'1.2'" [full_name]="'Xasanov Otabek Abdurashidovich'" [number_of_jobs]="1" [job_title]="'Агентлик директори'"></app-table-row>
-        <app-table-row [id]="'1.3'" [full_name]="'Xasanov Otabek Abdurashidovich'" [number_of_jobs]="1" [job_title]="'Агентлик директори'"></app-table-row>
-        <app-table-row [id]="'1.4'" [full_name]="'Xasanov Otabek Abdurashidovich'" [number_of_jobs]="1" [job_title]="'Агентлик директори'"></app-table-row>
-        <app-table-row [id]="'1.5'" [full_name]="'Xasanov Otabek Abdurashidovich'" [number_of_jobs]="1" [job_title]="'Агентлик директори'"></app-table-row>
-        <div class="total_number_row d-flex align-items-center justify-content-end py-3">
-            <p class="m-0 me-3 p-0">Жами: 5</p>
-        </div>
-        <div class="table_title d-flex align-items-center justify-content-center py-3">
-            <p class="m-0 p-0">Кадрлар маъмуриятчилиги департаменти</p>
-        </div>
-        <app-table-row [id]="'1.1'" [full_name]="'Xasanov Otabek Abdurashidovich'" [number_of_jobs]="1" [job_title]="'Агентлик директори'"></app-table-row>
-        <app-table-row [id]="'1.2'" [full_name]="'Xasanov Otabek Abdurashidovich'" [number_of_jobs]="1" [job_title]="'Агентлик директори'"></app-table-row>
-        <app-table-row [id]="'1.3'" [full_name]="'Xasanov Otabek Abdurashidovich'" [number_of_jobs]="1" [job_title]="'Агентлик директори'"></app-table-row>
-        <app-table-row [id]="'1.4'" [full_name]="'Xasanov Otabek Abdurashidovich'" [number_of_jobs]="1" [job_title]="'Агентлик директори'"></app-table-row>
+        <app-home-page-table [id]="'1.1'" [full_name]="'Агентлик директори'" [gender]="'Аёл'" [birth_date]="'1'" [passport]="'АА366363563'" [update]="'28.11.2022'"></app-home-page-table>
+        <app-home-page-table [id]="'1.1'" [full_name]="'Директорнинг биринчи ўринбосари'" [gender]="'Эркак'" [birth_date]="'1'" [passport]="'АА366363563'" [update]="'28.11.2022'"></app-home-page-table>
+        <app-home-page-table [id]="'1.1'" [full_name]="'Директорнинг биринчи ўринбосари'" [gender]="'Эркак'" [birth_date]="'1'" [passport]="'АА366363563'" [update]="'28.11.2022'"></app-home-page-table>
+        <app-home-page-table [id]="'1.1'" [full_name]="'Директорнинг биринчи ўринбосари'" [gender]="'Эркак'" [birth_date]="'1'" [passport]="'АА366363563'" [update]="'28.11.2022'"></app-home-page-table>
     </section>
 </section>

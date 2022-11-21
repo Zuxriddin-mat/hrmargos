@@ -1,0 +1,63 @@
+.headings_row {
+    // background-color: #033e73;
+    margin: 0 30px;
+    padding: 10px 0;
+    width: 95%;
+    border-bottom: 1px solid black;
+    .headings_row_index {
+        width: 5%;
+    }
+    .headings_row_photo {
+        width: 6%;
+        span {
+            display: inline-block;
+            height: 30px;
+            width: 30px;
+            border-radius: 50%;
+            border: 1px solid black;
+        }
+    }
+    div {
+        color: black;
+        font-size: 14px;
+        font-family: "SansProSemi";
+        border-right: 1px solid black;
+        padding-top: 10px;
+    }
+
+    .headings_row_fullname {
+        width: 22%;
+    }
+
+    .headings_row_gender {
+        width: 7%;
+    }
+
+    .headings_row_birth {
+        width: 10%;
+    }
+
+    .headings_row_passport {
+        width: 15%;
+    }
+
+    .headings_row_update {
+        width: 11.6%;
+    }
+
+    .headings_row_object {
+        width: 7.8%;
+    }
+
+    .headings_row_t2 {
+        width: 6.5%;
+    }
+
+    .headings_row_cv {
+        width: 8%;
+    }
+
+    .headings_row_cv {
+        border: none;
+    }
+}

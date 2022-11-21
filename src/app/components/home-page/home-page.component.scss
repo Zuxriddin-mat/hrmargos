@@ -53,70 +53,86 @@
                 font-family: "SansProRegular";
             }
 
-            .sorting_row_services, .sorting_row_companies, .sorting_row_branches {
-                .services, .companies, .branches {
+            .sorting_row_services,
+            .sorting_row_companies,
+            .sorting_row_branches {
+                .services,
+                .companies,
+                .branches {
                     padding: 8px;
                     text-overflow: ellipsis;
                     border-radius: 10px;
                     border: 1px solid rgb(128, 128, 128, 0.3);
-                    option{
+                    option {
                         font-size: 18px;
-                        font-family: 'SansProRegular';
+                        font-family: "SansProRegular";
                     }
                 }
             }
         }
 
-        .headings_row{
-            background-color: #033E73;
+        .headings_row {
+            background-color: #033e73;
             margin: 0 30px;
             border-radius: 10px;
             padding: 10px 0;
             width: 95%;
             // padding: 0;
-            .headings_row_index{
+            .headings_row_index {
                 width: 5%;
             }
-        
-            .headings_row_names{
-                width: 33.33333%;
+            .headings_row_photo {
+                width: 6%;
             }
-            div{
+            div {
                 color: white;
-                font-size: 18px;
-                font-family: 'SansProSemi';
+                font-size: 14px;
+                font-family: "SansProSemi";
                 padding: 7px;
                 border-right: 1px solid white;
             }
-        
-            .headings_row_fullname{
+
+            .headings_row_fullname {
+                width: 22%;
+            }
+
+            .headings_row_gender {
+                width: 7%;
+            }
+
+            .headings_row_cv {
                 border: none;
             }
         }
 
-        .total_number_row{
-            background-color: #0F6AB7;
+        .total_number_row {
+            background-color: #033e73;
             margin: 0 30px;
+            margin-top: 1px;
             border-radius: 10px;
-            padding: 10px 0;
+            padding: 8px 0;
             width: 95%;
-            p {
-                color: white;
-                font-size: 18px;
+            .names, .genders, .passports{
+                width: 21%;
+                padding: 7px;
+                text-overflow: ellipsis;
+                border-radius: 10px;
+                border: 1px solid rgb(128, 128, 128, 0.3);
+                option {
+                    font-size: 18px;
+                    font-family: "SansProRegular";
+                }
+                margin-left: 11%;
             }
-        }
-        
-        .table_title{
-            background-color: #F4F7FC;
-            margin: 0 30px;
-            border-radius: 10px;
-            padding: 10px 0;
-            width: 95%;
-            p{
-                font-size: 18px;
-                font-family: 'SansProSemi';
-            }
-        }
 
+            .genders{
+                width: 6%;
+                margin-left: 1.5%;
+            }
+
+            .passports{
+                width: 14%;
+            }
+        }
     }
 }

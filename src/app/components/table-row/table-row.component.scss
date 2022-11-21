@@ -1,0 +1,25 @@
+.headings_row{
+    // background-color: #033E73;
+    margin: 0 30px;
+    // border-radius: 10px;
+    padding: 10px 0;
+    width: 95%;
+    border-bottom: 1px solid #033E73;
+    .headings_row_index{
+        width: 5%;
+    }
+
+    .headings_row_names{
+        width: 33.33333%;
+    }
+    div{
+        font-size: 18px;
+        font-family: 'SansProSemi';
+        padding: 7px;
+        border-right: 1px solid #033E73;
+    }
+
+    .headings_row_fullname{
+        border: none;
+    }
+}
